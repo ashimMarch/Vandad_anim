@@ -1,4 +1,5 @@
 
+import 'package:animation_tutorial/05_implicit_animation/imlicit_anim.dart';
 import 'package:flutter/material.dart';
 
 // import 'package:animation_tutorial/01_animatedbuilder/example1.dart';
@@ -22,7 +23,8 @@ class MyApp extends StatelessWidget {
       themeMode: ThemeMode.dark,
       debugShowCheckedModeBanner: false,
       debugShowMaterialGrid: false,
-      home: const HeroAnim(),
+      // home: const HeroAnim(),
+      home: const ImplicitAnimation(),
     );
   }
 }
