@@ -6,7 +6,7 @@ import 'package:flutter/material.dart';
 // import '02_chained_animation/clippers.dart';
 import '03_stack_rotate_3d/widget_rotaion3d.dart';
 import '04_hero_animation/hero_animation.dart';
-import 'tween_animation_builder/tween_anim_builder.dart';
+import '06_tween_animation_builder/tween_anim_builder.dart';
 
 
 void main() {
