@@ -8,6 +8,7 @@ import '03_stack_rotate_3d/widget_rotaion3d.dart';
 import '04_hero_animation/hero_animation.dart';
 import '06_tween_animation_builder/tween_anim_builder.dart';
 import '08_3D_animation/3D_animation.dart';
+import '09_animated_prompt/interactive_prompt_box.dart';
 
 
 void main() {
@@ -26,7 +27,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       debugShowMaterialGrid: false,
       // home: const HeroAnim(),
-      home: const ThreeDAnimation(),
+      home: const PromptHome(),
     );
   }
 }
